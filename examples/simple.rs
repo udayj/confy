@@ -1,6 +1,6 @@
 //! The most simplest examples of how to use confy
 
-extern crate confy;
+extern crate confy; // this is pre Rust 2018
 
 #[macro_use]
 extern crate serde_derive;

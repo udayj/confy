@@ -46,7 +46,7 @@
 //! }
 //!
 //! /// `MyConfig` implements `Default`
-//! impl ::std::default::Default for MyConfig {
+//! impl ::std::default::Default for MyConfig { // ::std refers to std from the root namespace i.e. absolute path
 //!     fn default() -> Self { Self { version: 0, api_key: "".into() } }
 //! }
 //!
